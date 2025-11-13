@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #1e1f25;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.btn-border{
+    background-image: linear-gradient(115deg, #ff5733, #ffbd33, #33ff57, #33ffbd, #5733ff, #bd33ff);
+    padding: 0.2em;
+    border-radius: 5px;
+}
+
+.button{
+    border: none;
+    padding:1em 1.5em;
+    font-family:roboto;
+    letter-spacing:.2em;
+    color:#cbcbcb;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.btn-border:hover{
+    background-image: linear-gradient(230deg, #ff5733, #ffbd33, #33ff57, #33ffbd, #5733ff, #bd33ff);
+    padding: .3em;
+}
+.btn-border:hover .button{
+    color: #fff;
+}
